@@ -41,7 +41,8 @@
     self.synthesizer = [[AVSpeechSynthesizer alloc] init];
     self.synthesizer.delegate = self;
     //播放的国家的语言
-    self.voices = @[[AVSpeechSynthesisVoice voiceWithLanguage:@"zh-CN"],[AVSpeechSynthesisVoice voiceWithLanguage:@"en-US"]
+    self.voices = @[[AVSpeechSynthesisVoice voiceWithLanguage:@"zh-CN"],
+                    [AVSpeechSynthesisVoice voiceWithLanguage:@"en-US"]
                     ];
     self.speechStrings = [[NSMutableArray alloc] init];
     
